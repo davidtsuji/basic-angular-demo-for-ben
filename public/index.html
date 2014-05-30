@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app="app" ng-controller="app.controller">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="/angular/angular.min.js"></script>
+	<script src="/angular-route/angular-route.min.js"></script>
+	<script src="/emitter.js/emitter.js"></script>
+	<script src="/klass/klass.min.js"></script>
+	<script src="/assets/scripts/index.js"></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		
+		<header>
+			
+			<nav>
+				<ul>
+					<li><a href="/">home</a></li>
+					<li><a href="/one">one</a></li>
+					<li><a href="/two">two</a></li>
+				</ul>
+
+			</nav>
+		</header>
+
+		<section role="main" ng-view></section>
+
+	</div>
+	
+</body>
+</html>
